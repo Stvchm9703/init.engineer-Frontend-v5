@@ -2,10 +2,10 @@
  * This bootstrap file is used for both frontend and backend
  */
 
-import _ from 'lodash';
-import axios from 'axios';
+// import _ from 'lodash';
+// import axios from 'axios';
 import Swal from 'sweetalert2';
-import $ from 'jquery';
+// import $ from 'jquery';
 import 'popper.js'; // Required for BS4
 import 'bootstrap';
 
@@ -15,9 +15,9 @@ import 'bootstrap';
  * code may be modified to fit the specific needs of your application.
  */
 
-window.$ = window.jQuery = $;
+// window.$ = window.jQuery = $;
 window.Swal = Swal;
-window._ = _; // Lodash
+// window._ = _; // Lodash
 
 /**
  * We'll load the axios HTTP library which allows us to easily issue requests
